@@ -5,25 +5,25 @@ import axios  from "axios";
 
 
 export const AddHouse = () => {
-  const[userdata,setUserdata]=useState({
-    name:"",
-    ownerName:"",
-    addres:"",
-    areaCode:"",
-    rent:"",
-    preferredTenant:"",
-    image:"",
+//   const[userdata,setUserdata]=useState({
+//     name:"",
+//     ownerName:"",
+//     addres:"",
+//     areaCode:"",
+//     rent:"",
+//     preferredTenant:"",
+//     image:"",
 
-  });
-  const[getdata,setgetdata]=useState([]);
-  const handleinput=(e)=>{
-    setUserdata({...userdata,[id]: value});
+//   });
+//   const[getdata,setgetdata]=useState([]);
+//   const handleinput=(e)=>{
+//     setUserdata({...userdata,[id]: value});
 
-  };
-  const handlesubmit=(e)=>{
-    e.preventDefault();
+//   };
+//   const handlesubmit=(e)=>{
+//     e.preventDefault();
   
-  }
+//   }
     return (
       <div className="addHouseContainer">
         <form>
